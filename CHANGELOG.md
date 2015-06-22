@@ -1,5 +1,9 @@
 # Change Log
 
+## Unreleased
+
+ - Removed `TextureSurface` in favor of `SimpleFrameBuffer`.
+
 ## Version 0.6.2
 
  - Added `is_context_lost`, `is_robust` and `is_context_loss_possible` methods to `Context` (callable through the `Display` as well).
